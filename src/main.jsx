@@ -8,11 +8,11 @@ import Header from "./components/custom/Header.jsx";
 
 const router = createBrowserRouter([
   {
-    path: '/',
+    path: "/",
     element: <App />
   },
   {
-    path: '/create-trip',
+    path: "/create-trip",
     element: <CreateTrip />
   }
 ])
