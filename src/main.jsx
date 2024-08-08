@@ -4,15 +4,15 @@ import App from './App.jsx'
 import './index.css'
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import CreateTrip from "./create-trip/index.jsx";
-import Header from './components/custom/Header.jsx';
+import Header from "./components/custom/Header.jsx";
 
 const router = createBrowserRouter([
   {
-    path: '/',
+    path: "/",
     element: <App />
   },
   {
-    path: '/create-trip',
+    path: "/create-trip",
     element: <CreateTrip />
   }
 ])
