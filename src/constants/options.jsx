@@ -25,8 +25,8 @@ export const SelectTravelsList = [
     title: "Friends",
     desc: "A bunch of thrill-seekers",
     icon: "🚢",
-    people: "3 to 5 people"
-    },
+    people: "3 to 8 people"
+    }
 ]
 
 export const SelectBudgetOptions = [
